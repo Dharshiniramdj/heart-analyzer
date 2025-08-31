@@ -5,19 +5,19 @@ It uses a **Support Vector Machine (SVM)** model trained on clinical data and pr
 ---
 
 ## 💼 Features
-- 🧾 **Health Parameter Input** – Enter age, blood pressure, cholesterol, and other metrics.
-- 🤖 **AI-Powered Prediction** – Uses an SVM classifier to detect heart disease risk.
+-  **Health Parameter Input** – Enter age, blood pressure, cholesterol, and other metrics.
+-  **AI-Powered Prediction** – Uses an SVM classifier to detect heart disease risk.
 - 🧬 **Health Score** – Displays a percentage-based score for overall heart health.
 - 🔎 **Key Risk Factors** – Identifies likely contributing factors (cholesterol, chest pain type, etc.).
-- 📘 **Medical Guidance Sidebar** – Explains each parameter in simple terms.
-- ✅ **Instant Feedback** – Shows whether the user is at risk and suggests next steps.
+- **Medical Guidance Sidebar** – Explains each parameter in simple terms.
+- **Instant Feedback** – Shows whether the user is at risk and suggests next steps.
 
 ---
 
 ## 🌐 Use Cases
-- 🏥 **Healthcare Professionals** – Quick screening support tool.  
-- 👩‍💻 **Students & Researchers** – Educational project for ML in healthcare.  
-- 🧑‍🤝‍🧑 **General Users** – Personal health awareness and risk assessment.  
+- **Healthcare Professionals** – Quick screening support tool.  
+- **Students & Researchers** – Educational project for ML in healthcare.  
+- **General Users** – Personal health awareness and risk assessment.  
 
 ---
 
