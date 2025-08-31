@@ -1,25 +1,38 @@
 # 💖 Heart Risk Analyzer
-
-Heart Risk Analyzer is an AI-powered **Streamlit web app** that predicts the risk of heart disease based on medical parameters.  
-It uses **Support Vector Machine (SVM)** for prediction and provides an easy-to-use interface with explanations for each input.
-
----
-
-## 🚀 Features
-- 🧾 Input health parameters (age, blood pressure, cholesterol, etc.)
-- 📊 AI-based prediction using SVM
-- 🔎 Highlights likely contributing factors
-- 🧬 Shows a "Health Score" for better understanding
-- 💡 Simple medical explanations in the sidebar
+Heart Risk Analyzer is a modern, **Streamlit-based AI web app** that predicts the risk of heart disease using medical parameters.  
+It uses a **Support Vector Machine (SVM)** model trained on clinical data and provides clear, user-friendly health insights.  
 
 ---
 
-## 🛠 Installation
+## 💼 Features
+- 🧾 **Health Parameter Input** – Enter age, blood pressure, cholesterol, and other metrics.
+- 🤖 **AI-Powered Prediction** – Uses an SVM classifier to detect heart disease risk.
+- 🧬 **Health Score** – Displays a percentage-based score for overall heart health.
+- 🔎 **Key Risk Factors** – Identifies likely contributing factors (cholesterol, chest pain type, etc.).
+- 📘 **Medical Guidance Sidebar** – Explains each parameter in simple terms.
+- ✅ **Instant Feedback** – Shows whether the user is at risk and suggests next steps.
 
-Clone the repo and install dependencies:
+---
+
+## 🌐 Use Cases
+- 🏥 **Healthcare Professionals** – Quick screening support tool.  
+- 👩‍💻 **Students & Researchers** – Educational project for ML in healthcare.  
+- 🧑‍🤝‍🧑 **General Users** – Personal health awareness and risk assessment.  
+
+---
+
+## 🔒 Privacy & Disclaimer
+- All predictions are computed locally on your system.  
+- Your data is **not stored** or shared.  
+- ⚠️ **Disclaimer**: This app is for educational & awareness purposes only. It is **not a substitute for professional medical advice**.  
+
+---
+
+## 📦 Installation
+Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/heart-risk-analyzer.git
+git clone https://github.com/Dharshiniramdj/heart-risk-analyzer.git
 cd heart-risk-analyzer
 pip install -r requirements.txt
 ```
@@ -27,20 +40,37 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Run the App
-
 ```bash
 streamlit run heart_analyzer.py
 ```
 
 ---
 
-## 📂 Files
-- `heart_analyzer.py` → Streamlit app with ML model
-- `heart.csv` → Dataset used for training & testing
-- `requirements.txt` → Dependencies
-- `README.md` → Project description
+## 📂 Project Structure
+```
+heart-risk-analyzer/
+├── heart_analyzer.py      # Main Streamlit app
+├── heart.csv              # Dataset used for training & testing
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── LICENSE                # License file
+```
 
 ---
 
-## 📜 License
-MIT License – feel free to use and modify this project.
+## 📚 Tech Stack
+- **Framework:** Streamlit  
+- **Machine Learning:** scikit-learn (SVM)  
+- **Data Handling:** Pandas  
+- **UI Styling:** Streamlit components  
+
+---
+
+## 📄 License
+Licensed under the MIT License.
+
+---
+
+👩‍💻 **Author**  
+Dharshini Ram
+AI & Data Science enthusiast passionate about building health-focused, accessible tools.
