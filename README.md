@@ -51,6 +51,7 @@ streamlit run heart_analyzer.py
 heart-analyzer/
 ├── heart_analyzer.py      # Main Streamlit app
 ├── heart.csv              # Dataset used for training & testing
+├── DATASET_FEATURES.md    # Explanation of dataset columns
 ├── requirements.txt       # Dependencies
 ├── README.md              # Project documentation
 └── LICENSE                # License file
