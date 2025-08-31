@@ -1,5 +1,5 @@
-# 💖 Heart Risk Analyzer
-Heart Risk Analyzer is a modern, **Streamlit-based AI web app** that predicts the risk of heart disease using medical parameters.  
+# 💖 Heart Analyzer
+Heart Analyzer is a modern, **Streamlit-based AI web app** that predicts the risk of heart disease using medical parameters.  
 It uses a **Support Vector Machine (SVM)** model trained on clinical data and provides clear, user-friendly health insights.  
 
 ---
@@ -32,8 +32,8 @@ It uses a **Support Vector Machine (SVM)** model trained on clinical data and pr
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Dharshiniramdj/heart-risk-analyzer.git
-cd heart-risk-analyzer
+git clone https://github.com/Dharshiniramdj/heart-analyzer.git
+cd heart-analyzer
 pip install -r requirements.txt
 ```
 
@@ -48,7 +48,7 @@ streamlit run heart_analyzer.py
 
 ## 📂 Project Structure
 ```
-heart-risk-analyzer/
+heart-analyzer/
 ├── heart_analyzer.py      # Main Streamlit app
 ├── heart.csv              # Dataset used for training & testing
 ├── requirements.txt       # Dependencies
