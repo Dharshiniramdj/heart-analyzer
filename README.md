@@ -71,6 +71,8 @@ Licensed under the MIT License.
 
 ---
 
-👩‍💻 **Author**  
+👩‍💻 **Author** 
+
 Dharshini Ram
+
 AI & Data Science enthusiast passionate about building health-focused, accessible tools.
